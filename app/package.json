@@ -1,0 +1,24 @@
+{
+    "name": "docker-notes-app",
+    "version": "1.0.0",
+    "description": "Simple notes API for docker learning",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js",
+        "test": "bash ../tests/test_crud.sh"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "dependencies": {
+        "express": "5.1.0",
+        "mongodb": "7.0.0",
+        "pino": "10.1.0",
+        "body-parser": "2.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "3.1.11",
+        "axios": "1.13.2"
+    }
+}
